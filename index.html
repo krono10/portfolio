@@ -16,7 +16,6 @@
             --accent-color: #58a6ff;
             --glass: rgba(255, 255, 255, 0.05);
             
-            /* Colores de Tecnologías */
             --java-color: #f89820;
             --php-color: #777bb4;
             --js-color: #f7df1e;
@@ -68,7 +67,7 @@
 
         /* HERO / PRESENTACIÓN */
         .hero {
-            height: 100vh; /* Ocupa toda la pantalla inicial */
+            height: 100vh; 
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -81,7 +80,7 @@
         .hero h1 span { color: var(--accent-color); }
         .hero p { color: var(--text-secondary); max-width: 700px; margin-bottom: 2.5rem; font-size: 1.2rem; }
 
-        /* SECCIÓN TECNOLOGÍAS (CARDS MODERNAS) */
+        /* SECCIÓN TECNOLOGÍAS */
         .skills-section { padding: 100px 10%; background: #0a0c10; border-top: 1px solid var(--glass); }
         
         .section-title { 
@@ -140,10 +139,8 @@
 
         .project-grid {
             display: grid;
-            /* Cambiamos auto-fit por auto-fill y fijamos el máximo a 1fr (33% aprox) */
             grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
             gap: 2.5rem;
-            /* Esto asegura que si hay más de 3, no se amontonen */
             margin: 0 auto;
         }
         .project-card {
@@ -198,7 +195,7 @@
             .hero h1 { font-size: 3rem; }
             .skills-grid { grid-template-columns: 1fr; }
         }
-        /* Para forzar que en pantallas grandes solo haya 3 columnas máximo */
+
         @media (min-width: 1024px) {
             .project-grid {
                 grid-template-columns: repeat(3, 1fr);
@@ -252,7 +249,7 @@
                 <span class="skill-name">React</span>
                 <div class="skills-stats">
                     <div class="stat-item"><span class="stat-value">0</span><span class="stat-label">Proyectos</span></div>
-                    <div class="stat-item"><span class="stat-value">2+</span><span class="stat-label">Años</span></div>
+                    <div class="stat-item"><span class="stat-value">1+</span><span class="stat-label">Años</span></div>
                 </div>
             </div>
 
