@@ -20,7 +20,25 @@
             --php-color: #777bb4;
             --js-color: #f7df1e;
             --tailwind-color: #38bdf8;
+
+            /* Colores IAs */
+            --chatgpt-color: #10a37f;
+            --claude-color: #d97757;
+            --gemini-color: #8e75ff;
+            --deepseek-color: #4d6bff;
+
+            
         }
+
+        .tag-flutter { color: #02569B; }
+        .tag-rest { color: #ff5722; }
+
+        .tag-sync { color: #ff385c; } 
+        .tag-booking { color: #003580; } 
+
+        .tag-spring { color: #6DB33F; } 
+        .tag-react { color: #61DAFB; }  
+        .tag-api { color: #008080; }
 
         * {
             margin: 0;
@@ -210,6 +228,7 @@
         <ul>
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#tecnologias">Tecnologías</a></li>
+            <li><a href="#ias">IAs</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
         </ul>
     </nav>
@@ -245,7 +264,7 @@
             </div>
 
             <div class="skill-card">
-                <i class="fab fa-react skill-icon" style="color: var(--react-color);"></i>
+                <i class="fab fa-react skill-icon" style="color: #61dafb;"></i>
                 <span class="skill-name">React</span>
                 <div class="skills-stats">
                     <div class="stat-item"><span class="stat-value">0</span><span class="stat-label">Proyectos</span></div>
@@ -272,10 +291,19 @@
             </div>
 
             <div class="skill-card">
+                <i class="fas fa-leaf skill-icon" style="color: #ad512d;"></i>
+                <span class="skill-name">Java</span>
+                <div class="skills-stats">
+                    <div class="stat-item"><span class="stat-value">1</span><span class="stat-label">Proyectos</span></div>
+                    <div class="stat-item"><span class="stat-value">2+</span><span class="stat-label">Años</span></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
                 <i class="fas fa-leaf skill-icon" style="color: #6DB33F;"></i>
                 <span class="skill-name">Spring Boot</span>
                 <div class="skills-stats">
-                    <div class="stat-item"><span class="stat-value">0</span><span class="stat-label">Proyectos</span></div>
+                    <div class="stat-item"><span class="stat-value">1</span><span class="stat-label">Proyectos</span></div>
                     <div class="stat-item"><span class="stat-value">1+</span><span class="stat-label">Años</span></div>
                 </div>
             </div>
@@ -307,6 +335,62 @@
                 </div>
             </div>
 
+            <div class="skill-card">
+                <i class="fab fa-android skill-icon" style="color: #3DDC84;"></i>
+                <span class="skill-name">Kotlin</span>
+                <div class="skills-stats">
+                    <div class="stat-item"><span class="stat-value">0</span><span class="stat-label">Proyectos</span></div>
+                    <div class="stat-item"><span class="stat-value">1+</span><span class="stat-label">Años</span></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="skills-section" id="ias" style="background: #0d1117;">
+        <h2 class="section-title">Inteligencias Artificiales</h2>
+        <div class="skills-grid">
+            
+            <div class="skill-card">
+                <i class="fas fa-microchip skill-icon" style="color: var(--deepseek-color);"></i>
+                <span class="skill-name">DeepSeek</span>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1.5rem;">Uso para desarrollo de código largo y problemas de alta complejidad técnica.</p>
+                <div class="skills-stats">
+                    <div class="stat-item"><span class="stat-value">R1</span><span class="stat-label">Versión</span></div>
+                    <div class="stat-item"><span class="stat-value">Gratis</span><span class="stat-label">Plan</span></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-wand-magic-sparkles skill-icon" style="color: var(--gemini-color);"></i>
+                <span class="skill-name">Gemini</span>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1.5rem;">Uso para generación de código rápido y resolución de soluciones sencillas.</p>
+                <div class="skills-stats">
+                    <div class="stat-item"><span class="stat-value">2.0</span><span class="stat-label">Versión</span></div>
+                    <div class="stat-item"><span class="stat-value">Gratis</span><span class="stat-label">Plan</span></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-robot skill-icon" style="color: var(--chatgpt-color);"></i>
+                <span class="skill-name">ChatGPT</span>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1.5rem;">Uso para pequeños problemas, lectura de imágenes o búsquedas en internet.</p>
+                <div class="skills-stats">
+                    <div class="stat-item"><span class="stat-value">4o</span><span class="stat-label">Versión</span></div>
+                    <div class="stat-item"><span class="stat-value">Gratis</span><span class="stat-label">Plan</span></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-file-lines skill-icon" style="color: var(--claude-color);"></i>
+                <span class="skill-name">Claude</span>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1.5rem;">Uso principal para la generación y estructuración de documentos técnicos.</p>
+                <div class="skills-stats">
+                    <div class="stat-item"><span class="stat-value">3.5</span><span class="stat-label">Versión</span></div>
+                    <div class="stat-item"><span class="stat-value">Gratis</span><span class="stat-label">Plan</span></div>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -328,7 +412,46 @@
                         <a href="https://hechizodeazucar.store/home" target="_blank" rel="noopener noreferrer" class="btn-github">
                             <i class="fa fa-globe"></i> Ver Web
                         </a>
-                        <span style="font-size: 0.75rem; color: var(--text-secondary); font-weight: 600;">MySQL / MVC</span>
+                        <span style="font-size: 0.75rem; color: var(--text-secondary); font-weight: 600;">Proyecto Real</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img"><i class="fas fa-mobile-screen-button" style="color: #02569B;"></i></div>
+                <div class="project-info">
+                    <h3>Gestor de Pedidos (App Móvil)</h3>
+                    <p>Aplicación nativa para la gestión interna del negocio. Permite recibir notificaciones en tiempo real, visualizar pedidos entrantes y actualizar estados de preparación mediante una API REST propia.</p>
+                    <div class="tags">
+                        <span class="tag tag-flutter">Flutter</span>
+                        <span class="tag tag-rest">API REST</span>
+                        <span class="tag tag-php">PHP (Backend)</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- <a href="" target="_blank" rel="noopener noreferrer" class="btn-github">
+                            <i class="fa fa-globe"></i> Ver Web
+                        </a> -->
+                        <span style="font-size: 0.75rem; color: var(--text-secondary); font-weight: 600;">En Desarrollo</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img"><i class="fas fa-network-wired" style="color: #6DB33F;"></i></div>
+                <div class="project-info">
+                    <h3>Sistema de Alquiler Vacacional</h3>
+                    <p>Plataforma escalable con arquitectura desacoplada. Backend robusto para la gestión de reservas y un "Channel Manager" que centraliza la disponibilidad de múltiples portales externos mediante servicios REST.</p>
+                    
+                    
+
+                    <div class="tags">
+                        <span class="tag tag-spring">Spring Boot</span>
+                        <span class="tag tag-react">React</span>
+                        <span class="tag tag-api">REST API</span>
+                        <span class="tag tag-sync">iCal Sync</span>
+                    </div>
+                    <div style="margin-top: 15px;">
+                        <span style="font-size: 0.75rem; color: var(--text-secondary); font-weight: 600;">En Desarrollo</span>
                     </div>
                 </div>
             </div>
